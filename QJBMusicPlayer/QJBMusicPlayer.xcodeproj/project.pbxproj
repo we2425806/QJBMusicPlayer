@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		5221158F1E0E8C2B009D9903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5221158E1E0E8C2B009D9903 /* main.m */; };
 		522115921E0E8C2B009D9903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115911E0E8C2B009D9903 /* AppDelegate.m */; };
-		522115951E0E8C2B009D9903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115941E0E8C2B009D9903 /* ViewController.m */; };
 		522115981E0E8C2B009D9903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522115961E0E8C2B009D9903 /* Main.storyboard */; };
 		5221159A1E0E8C2B009D9903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522115991E0E8C2B009D9903 /* Assets.xcassets */; };
 		5221159D1E0E8C2B009D9903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5221159B1E0E8C2B009D9903 /* LaunchScreen.storyboard */; };
 		522115A81E0E8C2B009D9903 /* QJBMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115A71E0E8C2B009D9903 /* QJBMusicPlayerTests.m */; };
 		522115B31E0E8C2B009D9903 /* QJBMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115B21E0E8C2B009D9903 /* QJBMusicPlayerUITests.m */; };
+		522115C61E0E9575009D9903 /* QJBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115C51E0E9575009D9903 /* QJBViewController.m */; };
+		522115C91E0E95E6009D9903 /* QJBMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115C81E0E95E6009D9903 /* QJBMusic.m */; };
+		522115CC1E0E961C009D9903 /* QJBMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115CB1E0E961C009D9903 /* QJBMusicManager.m */; };
+		522115D11E0E9711009D9903 /* Coldplay - Yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 522115CE1E0E9711009D9903 /* Coldplay - Yellow.mp3 */; };
+		522115D21E0E9711009D9903 /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 522115CF1E0E9711009D9903 /* yellow.jpg */; };
+		522115D31E0E9711009D9903 /* Yellow.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 522115D01E0E9711009D9903 /* Yellow.lrc */; };
+		522115D51E0E973F009D9903 /* Music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 522115D41E0E973F009D9903 /* Music.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		5221158E1E0E8C2B009D9903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		522115901E0E8C2B009D9903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		522115911E0E8C2B009D9903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		522115931E0E8C2B009D9903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		522115941E0E8C2B009D9903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		522115971E0E8C2B009D9903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522115991E0E8C2B009D9903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5221159C1E0E8C2B009D9903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,16 @@
 		522115AE1E0E8C2B009D9903 /* QJBMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJBMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522115B21E0E8C2B009D9903 /* QJBMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBMusicPlayerUITests.m; sourceTree = "<group>"; };
 		522115B41E0E8C2B009D9903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522115C41E0E9575009D9903 /* QJBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBViewController.h; sourceTree = "<group>"; };
+		522115C51E0E9575009D9903 /* QJBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBViewController.m; sourceTree = "<group>"; };
+		522115C71E0E95E6009D9903 /* QJBMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBMusic.h; sourceTree = "<group>"; };
+		522115C81E0E95E6009D9903 /* QJBMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBMusic.m; sourceTree = "<group>"; };
+		522115CA1E0E961C009D9903 /* QJBMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBMusicManager.h; sourceTree = "<group>"; };
+		522115CB1E0E961C009D9903 /* QJBMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBMusicManager.m; sourceTree = "<group>"; };
+		522115CE1E0E9711009D9903 /* Coldplay - Yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coldplay - Yellow.mp3"; sourceTree = "<group>"; };
+		522115CF1E0E9711009D9903 /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
+		522115D01E0E9711009D9903 /* Yellow.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yellow.lrc; sourceTree = "<group>"; };
+		522115D41E0E973F009D9903 /* Music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Music.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,9 @@
 		5221158C1E0E8C2B009D9903 /* QJBMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				522115C01E0E9549009D9903 /* APP */,
 				522115901E0E8C2B009D9903 /* AppDelegate.h */,
 				522115911E0E8C2B009D9903 /* AppDelegate.m */,
-				522115931E0E8C2B009D9903 /* ViewController.h */,
-				522115941E0E8C2B009D9903 /* ViewController.m */,
 				522115961E0E8C2B009D9903 /* Main.storyboard */,
 				522115991E0E8C2B009D9903 /* Assets.xcassets */,
 				5221159B1E0E8C2B009D9903 /* LaunchScreen.storyboard */,
@@ -117,6 +130,8 @@
 		5221158D1E0E8C2B009D9903 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				522115D41E0E973F009D9903 /* Music.plist */,
+				522115CD1E0E9711009D9903 /* source */,
 				5221158E1E0E8C2B009D9903 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,53 @@
 				522115B41E0E8C2B009D9903 /* Info.plist */,
 			);
 			path = QJBMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		522115C01E0E9549009D9903 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				522115C11E0E9549009D9903 /* Controller */,
+				522115C21E0E9549009D9903 /* Model */,
+				522115C31E0E9549009D9903 /* View */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		522115C11E0E9549009D9903 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				522115C41E0E9575009D9903 /* QJBViewController.h */,
+				522115C51E0E9575009D9903 /* QJBViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		522115C21E0E9549009D9903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				522115C71E0E95E6009D9903 /* QJBMusic.h */,
+				522115C81E0E95E6009D9903 /* QJBMusic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		522115C31E0E9549009D9903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				522115CA1E0E961C009D9903 /* QJBMusicManager.h */,
+				522115CB1E0E961C009D9903 /* QJBMusicManager.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		522115CD1E0E9711009D9903 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				522115CE1E0E9711009D9903 /* Coldplay - Yellow.mp3 */,
+				522115CF1E0E9711009D9903 /* yellow.jpg */,
+				522115D01E0E9711009D9903 /* Yellow.lrc */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +308,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522115D11E0E9711009D9903 /* Coldplay - Yellow.mp3 in Resources */,
+				522115D51E0E973F009D9903 /* Music.plist in Resources */,
 				5221159D1E0E8C2B009D9903 /* LaunchScreen.storyboard in Resources */,
+				522115D21E0E9711009D9903 /* yellow.jpg in Resources */,
 				5221159A1E0E8C2B009D9903 /* Assets.xcassets in Resources */,
 				522115981E0E8C2B009D9903 /* Main.storyboard in Resources */,
+				522115D31E0E9711009D9903 /* Yellow.lrc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522115951E0E8C2B009D9903 /* ViewController.m in Sources */,
 				522115921E0E8C2B009D9903 /* AppDelegate.m in Sources */,
+				522115C61E0E9575009D9903 /* QJBViewController.m in Sources */,
 				5221158F1E0E8C2B009D9903 /* main.m in Sources */,
+				522115CC1E0E961C009D9903 /* QJBMusicManager.m in Sources */,
+				522115C91E0E95E6009D9903 /* QJBMusic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
