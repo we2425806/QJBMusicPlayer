@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5221158F1E0E8C2B009D9903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5221158E1E0E8C2B009D9903 /* main.m */; };
+		522115921E0E8C2B009D9903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115911E0E8C2B009D9903 /* AppDelegate.m */; };
+		522115951E0E8C2B009D9903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115941E0E8C2B009D9903 /* ViewController.m */; };
+		522115981E0E8C2B009D9903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522115961E0E8C2B009D9903 /* Main.storyboard */; };
+		5221159A1E0E8C2B009D9903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522115991E0E8C2B009D9903 /* Assets.xcassets */; };
+		5221159D1E0E8C2B009D9903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5221159B1E0E8C2B009D9903 /* LaunchScreen.storyboard */; };
+		522115A81E0E8C2B009D9903 /* QJBMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115A71E0E8C2B009D9903 /* QJBMusicPlayerTests.m */; };
+		522115B31E0E8C2B009D9903 /* QJBMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115B21E0E8C2B009D9903 /* QJBMusicPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		522115A41E0E8C2B009D9903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522115821E0E8C2A009D9903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522115891E0E8C2A009D9903;
+			remoteInfo = QJBMusicPlayer;
+		};
+		522115AF1E0E8C2B009D9903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522115821E0E8C2A009D9903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522115891E0E8C2A009D9903;
+			remoteInfo = QJBMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5221158A1E0E8C2B009D9903 /* QJBMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QJBMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5221158E1E0E8C2B009D9903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		522115901E0E8C2B009D9903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		522115911E0E8C2B009D9903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		522115931E0E8C2B009D9903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		522115941E0E8C2B009D9903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		522115971E0E8C2B009D9903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		522115991E0E8C2B009D9903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5221159C1E0E8C2B009D9903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5221159E1E0E8C2B009D9903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522115A31E0E8C2B009D9903 /* QJBMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJBMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522115A71E0E8C2B009D9903 /* QJBMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBMusicPlayerTests.m; sourceTree = "<group>"; };
+		522115A91E0E8C2B009D9903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522115AE1E0E8C2B009D9903 /* QJBMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJBMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522115B21E0E8C2B009D9903 /* QJBMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBMusicPlayerUITests.m; sourceTree = "<group>"; };
+		522115B41E0E8C2B009D9903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522115871E0E8C2A009D9903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522115A01E0E8C2B009D9903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522115AB1E0E8C2B009D9903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522115811E0E8C2A009D9903 = {
+			isa = PBXGroup;
+			children = (
+				5221158C1E0E8C2B009D9903 /* QJBMusicPlayer */,
+				522115A61E0E8C2B009D9903 /* QJBMusicPlayerTests */,
+				522115B11E0E8C2B009D9903 /* QJBMusicPlayerUITests */,
+				5221158B1E0E8C2B009D9903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5221158B1E0E8C2B009D9903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5221158A1E0E8C2B009D9903 /* QJBMusicPlayer.app */,
+				522115A31E0E8C2B009D9903 /* QJBMusicPlayerTests.xctest */,
+				522115AE1E0E8C2B009D9903 /* QJBMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5221158C1E0E8C2B009D9903 /* QJBMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				522115901E0E8C2B009D9903 /* AppDelegate.h */,
+				522115911E0E8C2B009D9903 /* AppDelegate.m */,
+				522115931E0E8C2B009D9903 /* ViewController.h */,
+				522115941E0E8C2B009D9903 /* ViewController.m */,
+				522115961E0E8C2B009D9903 /* Main.storyboard */,
+				522115991E0E8C2B009D9903 /* Assets.xcassets */,
+				5221159B1E0E8C2B009D9903 /* LaunchScreen.storyboard */,
+				5221159E1E0E8C2B009D9903 /* Info.plist */,
+				5221158D1E0E8C2B009D9903 /* Supporting Files */,
+			);
+			path = QJBMusicPlayer;
+			sourceTree = "<group>";
+		};
+		5221158D1E0E8C2B009D9903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5221158E1E0E8C2B009D9903 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		522115A61E0E8C2B009D9903 /* QJBMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				522115A71E0E8C2B009D9903 /* QJBMusicPlayerTests.m */,
+				522115A91E0E8C2B009D9903 /* Info.plist */,
+			);
+			path = QJBMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		522115B11E0E8C2B009D9903 /* QJBMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				522115B21E0E8C2B009D9903 /* QJBMusicPlayerUITests.m */,
+				522115B41E0E8C2B009D9903 /* Info.plist */,
+			);
+			path = QJBMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522115891E0E8C2A009D9903 /* QJBMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522115B71E0E8C2B009D9903 /* Build configuration list for PBXNativeTarget "QJBMusicPlayer" */;
+			buildPhases = (
+				522115861E0E8C2A009D9903 /* Sources */,
+				522115871E0E8C2A009D9903 /* Frameworks */,
+				522115881E0E8C2A009D9903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QJBMusicPlayer;
+			productName = QJBMusicPlayer;
+			productReference = 5221158A1E0E8C2B009D9903 /* QJBMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		522115A21E0E8C2B009D9903 /* QJBMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522115BA1E0E8C2B009D9903 /* Build configuration list for PBXNativeTarget "QJBMusicPlayerTests" */;
+			buildPhases = (
+				5221159F1E0E8C2B009D9903 /* Sources */,
+				522115A01E0E8C2B009D9903 /* Frameworks */,
+				522115A11E0E8C2B009D9903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522115A51E0E8C2B009D9903 /* PBXTargetDependency */,
+			);
+			name = QJBMusicPlayerTests;
+			productName = QJBMusicPlayerTests;
+			productReference = 522115A31E0E8C2B009D9903 /* QJBMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		522115AD1E0E8C2B009D9903 /* QJBMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522115BD1E0E8C2B009D9903 /* Build configuration list for PBXNativeTarget "QJBMusicPlayerUITests" */;
+			buildPhases = (
+				522115AA1E0E8C2B009D9903 /* Sources */,
+				522115AB1E0E8C2B009D9903 /* Frameworks */,
+				522115AC1E0E8C2B009D9903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522115B01E0E8C2B009D9903 /* PBXTargetDependency */,
+			);
+			name = QJBMusicPlayerUITests;
+			productName = QJBMusicPlayerUITests;
+			productReference = 522115AE1E0E8C2B009D9903 /* QJBMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522115821E0E8C2A009D9903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macbookpro;
+				TargetAttributes = {
+					522115891E0E8C2A009D9903 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					522115A21E0E8C2B009D9903 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 522115891E0E8C2A009D9903;
+					};
+					522115AD1E0E8C2B009D9903 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 522115891E0E8C2A009D9903;
+					};
+				};
+			};
+			buildConfigurationList = 522115851E0E8C2A009D9903 /* Build configuration list for PBXProject "QJBMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 522115811E0E8C2A009D9903;
+			productRefGroup = 5221158B1E0E8C2B009D9903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522115891E0E8C2A009D9903 /* QJBMusicPlayer */,
+				522115A21E0E8C2B009D9903 /* QJBMusicPlayerTests */,
+				522115AD1E0E8C2B009D9903 /* QJBMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522115881E0E8C2A009D9903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5221159D1E0E8C2B009D9903 /* LaunchScreen.storyboard in Resources */,
+				5221159A1E0E8C2B009D9903 /* Assets.xcassets in Resources */,
+				522115981E0E8C2B009D9903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522115A11E0E8C2B009D9903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522115AC1E0E8C2B009D9903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522115861E0E8C2A009D9903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522115951E0E8C2B009D9903 /* ViewController.m in Sources */,
+				522115921E0E8C2B009D9903 /* AppDelegate.m in Sources */,
+				5221158F1E0E8C2B009D9903 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221159F1E0E8C2B009D9903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522115A81E0E8C2B009D9903 /* QJBMusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522115AA1E0E8C2B009D9903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522115B31E0E8C2B009D9903 /* QJBMusicPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		522115A51E0E8C2B009D9903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522115891E0E8C2A009D9903 /* QJBMusicPlayer */;
+			targetProxy = 522115A41E0E8C2B009D9903 /* PBXContainerItemProxy */;
+		};
+		522115B01E0E8C2B009D9903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522115891E0E8C2A009D9903 /* QJBMusicPlayer */;
+			targetProxy = 522115AF1E0E8C2B009D9903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522115961E0E8C2B009D9903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522115971E0E8C2B009D9903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5221159B1E0E8C2B009D9903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5221159C1E0E8C2B009D9903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522115B51E0E8C2B009D9903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		522115B61E0E8C2B009D9903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522115B81E0E8C2B009D9903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QJBMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.macbookpro.QJBMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		522115B91E0E8C2B009D9903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QJBMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.macbookpro.QJBMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		522115BB1E0E8C2B009D9903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QJBMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.macbookpro.QJBMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJBMusicPlayer.app/QJBMusicPlayer";
+			};
+			name = Debug;
+		};
+		522115BC1E0E8C2B009D9903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QJBMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.macbookpro.QJBMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJBMusicPlayer.app/QJBMusicPlayer";
+			};
+			name = Release;
+		};
+		522115BE1E0E8C2B009D9903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QJBMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.macbookpro.QJBMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJBMusicPlayer;
+			};
+			name = Debug;
+		};
+		522115BF1E0E8C2B009D9903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QJBMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.macbookpro.QJBMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJBMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522115851E0E8C2A009D9903 /* Build configuration list for PBXProject "QJBMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522115B51E0E8C2B009D9903 /* Debug */,
+				522115B61E0E8C2B009D9903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522115B71E0E8C2B009D9903 /* Build configuration list for PBXNativeTarget "QJBMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522115B81E0E8C2B009D9903 /* Debug */,
+				522115B91E0E8C2B009D9903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		522115BA1E0E8C2B009D9903 /* Build configuration list for PBXNativeTarget "QJBMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522115BB1E0E8C2B009D9903 /* Debug */,
+				522115BC1E0E8C2B009D9903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		522115BD1E0E8C2B009D9903 /* Build configuration list for PBXNativeTarget "QJBMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522115BE1E0E8C2B009D9903 /* Debug */,
+				522115BF1E0E8C2B009D9903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522115821E0E8C2A009D9903 /* Project object */;
+}
