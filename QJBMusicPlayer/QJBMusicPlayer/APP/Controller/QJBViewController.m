@@ -7,8 +7,11 @@
 //
 
 #import "QJBViewController.h"
+#import "QJBMusic.h"
 
 @interface QJBViewController ()
+
+@property(nonatomic,strong)NSArray<QJBMusic *>*musicArray;
 
 @end
 
@@ -16,22 +19,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
+    [self loadSource];
+}
+- (IBAction)behideClick:(id)sender {
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)playClick:(id)sender {
+    
+    
+}
+- (IBAction)nextClick:(id)sender {
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)loadSource {
+    NSMutableArray *modelArrM = [NSMutableArray array];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"Music.plist" withExtension:nil];
+    NSArray *itemArr = [NSArray arrayWithContentsOfURL:url];
+    NSError *error;
+    for (NSDictionary *dic in itemArr) {
+        
+        QJBMusic *music = [[QJBMusic alloc] initWithDictionary:dic error:&error];
+        if (error) {
+            NSLog(@"%@",error);
+        }
+        [modelArrM addObject:music];
+    }
+    _musicArray = modelArrM;
 }
-*/
 
 @end

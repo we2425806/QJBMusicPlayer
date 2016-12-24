@@ -10,4 +10,7 @@
 
 @interface QJBMusicManager : NSObject
 
+
++(instancetype)defaultManager;
+
 @end

@@ -21,6 +21,26 @@
 		522115D21E0E9711009D9903 /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 522115CF1E0E9711009D9903 /* yellow.jpg */; };
 		522115D31E0E9711009D9903 /* Yellow.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 522115D01E0E9711009D9903 /* Yellow.lrc */; };
 		522115D51E0E973F009D9903 /* Music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 522115D41E0E973F009D9903 /* Music.plist */; };
+		522116081E0EA06B009D9903 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 522115D71E0EA06B009D9903 /* Info.plist */; };
+		522116091E0EA06B009D9903 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115DA1E0EA06B009D9903 /* JSONModel.m */; };
+		5221160A1E0EA06B009D9903 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115DC1E0EA06B009D9903 /* JSONModelClassProperty.m */; };
+		5221160B1E0EA06B009D9903 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115DE1E0EA06B009D9903 /* JSONModelError.m */; };
+		5221160C1E0EA06B009D9903 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115E21E0EA06B009D9903 /* JSONAPI.m */; };
+		5221160D1E0EA06B009D9903 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115E41E0EA06B009D9903 /* JSONHTTPClient.m */; };
+		5221160E1E0EA06B009D9903 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115E61E0EA06B009D9903 /* JSONModel+networking.m */; };
+		5221160F1E0EA06B009D9903 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115E91E0EA06B009D9903 /* JSONKeyMapper.m */; };
+		522116101E0EA06B009D9903 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115EB1E0EA06B009D9903 /* JSONValueTransformer.m */; };
+		522116111E0EA06B009D9903 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 522115ED1E0EA06B009D9903 /* Info.plist */; };
+		522116121E0EA06B009D9903 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115EF1E0EA06B009D9903 /* MASCompositeConstraint.m */; };
+		522116131E0EA06B009D9903 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115F21E0EA06B009D9903 /* MASConstraint.m */; };
+		522116141E0EA06B009D9903 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115F41E0EA06B009D9903 /* MASConstraintMaker.m */; };
+		522116151E0EA06B009D9903 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115F61E0EA06B009D9903 /* MASLayoutConstraint.m */; };
+		522116161E0EA06B009D9903 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115FA1E0EA06B009D9903 /* MASViewAttribute.m */; };
+		522116171E0EA06B009D9903 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115FC1E0EA06B009D9903 /* MASViewConstraint.m */; };
+		522116181E0EA06B009D9903 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 522115FE1E0EA06B009D9903 /* NSArray+MASAdditions.m */; };
+		522116191E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 522116011E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5221161A1E0EA06B009D9903 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 522116031E0EA06B009D9903 /* View+MASAdditions.m */; };
+		5221161B1E0EA06B009D9903 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 522116061E0EA06B009D9903 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +85,51 @@
 		522115CF1E0E9711009D9903 /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
 		522115D01E0E9711009D9903 /* Yellow.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yellow.lrc; sourceTree = "<group>"; };
 		522115D41E0E973F009D9903 /* Music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Music.plist; sourceTree = "<group>"; };
+		522115D71E0EA06B009D9903 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522115D91E0EA06B009D9903 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		522115DA1E0EA06B009D9903 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		522115DB1E0EA06B009D9903 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		522115DC1E0EA06B009D9903 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		522115DD1E0EA06B009D9903 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		522115DE1E0EA06B009D9903 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		522115DF1E0EA06B009D9903 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		522115E11E0EA06B009D9903 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		522115E21E0EA06B009D9903 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		522115E31E0EA06B009D9903 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		522115E41E0EA06B009D9903 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		522115E51E0EA06B009D9903 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		522115E61E0EA06B009D9903 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		522115E81E0EA06B009D9903 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		522115E91E0EA06B009D9903 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		522115EA1E0EA06B009D9903 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		522115EB1E0EA06B009D9903 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		522115ED1E0EA06B009D9903 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522115EE1E0EA06B009D9903 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		522115EF1E0EA06B009D9903 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		522115F01E0EA06B009D9903 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		522115F11E0EA06B009D9903 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		522115F21E0EA06B009D9903 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		522115F31E0EA06B009D9903 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		522115F41E0EA06B009D9903 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		522115F51E0EA06B009D9903 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		522115F61E0EA06B009D9903 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		522115F71E0EA06B009D9903 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		522115F81E0EA06B009D9903 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		522115F91E0EA06B009D9903 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		522115FA1E0EA06B009D9903 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		522115FB1E0EA06B009D9903 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		522115FC1E0EA06B009D9903 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		522115FD1E0EA06B009D9903 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		522115FE1E0EA06B009D9903 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		522115FF1E0EA06B009D9903 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		522116001E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		522116011E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		522116021E0EA06B009D9903 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		522116031E0EA06B009D9903 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		522116041E0EA06B009D9903 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		522116051E0EA06B009D9903 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		522116061E0EA06B009D9903 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		522116071E0EA06B009D9903 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +160,7 @@
 		522115811E0E8C2A009D9903 = {
 			isa = PBXGroup;
 			children = (
+				522115D61E0EA06B009D9903 /* JSONModel */,
 				5221158C1E0E8C2B009D9903 /* QJBMusicPlayer */,
 				522115A61E0E8C2B009D9903 /* QJBMusicPlayerTests */,
 				522115B11E0E8C2B009D9903 /* QJBMusicPlayerUITests */,
@@ -200,6 +266,90 @@
 				522115D01E0E9711009D9903 /* Yellow.lrc */,
 			);
 			path = source;
+			sourceTree = "<group>";
+		};
+		522115D61E0EA06B009D9903 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				522115D71E0EA06B009D9903 /* Info.plist */,
+				522115D81E0EA06B009D9903 /* JSONModel */,
+				522115DF1E0EA06B009D9903 /* JSONModelLib.h */,
+				522115E01E0EA06B009D9903 /* JSONModelNetworking */,
+				522115E71E0EA06B009D9903 /* JSONModelTransformations */,
+				522115EC1E0EA06B009D9903 /* Masonry */,
+				522116071E0EA06B009D9903 /* module.modulemap */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		522115D81E0EA06B009D9903 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				522115D91E0EA06B009D9903 /* JSONModel.h */,
+				522115DA1E0EA06B009D9903 /* JSONModel.m */,
+				522115DB1E0EA06B009D9903 /* JSONModelClassProperty.h */,
+				522115DC1E0EA06B009D9903 /* JSONModelClassProperty.m */,
+				522115DD1E0EA06B009D9903 /* JSONModelError.h */,
+				522115DE1E0EA06B009D9903 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		522115E01E0EA06B009D9903 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				522115E11E0EA06B009D9903 /* JSONAPI.h */,
+				522115E21E0EA06B009D9903 /* JSONAPI.m */,
+				522115E31E0EA06B009D9903 /* JSONHTTPClient.h */,
+				522115E41E0EA06B009D9903 /* JSONHTTPClient.m */,
+				522115E51E0EA06B009D9903 /* JSONModel+networking.h */,
+				522115E61E0EA06B009D9903 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		522115E71E0EA06B009D9903 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				522115E81E0EA06B009D9903 /* JSONKeyMapper.h */,
+				522115E91E0EA06B009D9903 /* JSONKeyMapper.m */,
+				522115EA1E0EA06B009D9903 /* JSONValueTransformer.h */,
+				522115EB1E0EA06B009D9903 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		522115EC1E0EA06B009D9903 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				522115ED1E0EA06B009D9903 /* Info.plist */,
+				522115EE1E0EA06B009D9903 /* MASCompositeConstraint.h */,
+				522115EF1E0EA06B009D9903 /* MASCompositeConstraint.m */,
+				522115F01E0EA06B009D9903 /* MASConstraint+Private.h */,
+				522115F11E0EA06B009D9903 /* MASConstraint.h */,
+				522115F21E0EA06B009D9903 /* MASConstraint.m */,
+				522115F31E0EA06B009D9903 /* MASConstraintMaker.h */,
+				522115F41E0EA06B009D9903 /* MASConstraintMaker.m */,
+				522115F51E0EA06B009D9903 /* MASLayoutConstraint.h */,
+				522115F61E0EA06B009D9903 /* MASLayoutConstraint.m */,
+				522115F71E0EA06B009D9903 /* Masonry.h */,
+				522115F81E0EA06B009D9903 /* MASUtilities.h */,
+				522115F91E0EA06B009D9903 /* MASViewAttribute.h */,
+				522115FA1E0EA06B009D9903 /* MASViewAttribute.m */,
+				522115FB1E0EA06B009D9903 /* MASViewConstraint.h */,
+				522115FC1E0EA06B009D9903 /* MASViewConstraint.m */,
+				522115FD1E0EA06B009D9903 /* NSArray+MASAdditions.h */,
+				522115FE1E0EA06B009D9903 /* NSArray+MASAdditions.m */,
+				522115FF1E0EA06B009D9903 /* NSArray+MASShorthandAdditions.h */,
+				522116001E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				522116011E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				522116021E0EA06B009D9903 /* View+MASAdditions.h */,
+				522116031E0EA06B009D9903 /* View+MASAdditions.m */,
+				522116041E0EA06B009D9903 /* View+MASShorthandAdditions.h */,
+				522116051E0EA06B009D9903 /* ViewController+MASAdditions.h */,
+				522116061E0EA06B009D9903 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +458,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522116081E0EA06B009D9903 /* Info.plist in Resources */,
 				522115D11E0E9711009D9903 /* Coldplay - Yellow.mp3 in Resources */,
+				522116111E0EA06B009D9903 /* Info.plist in Resources */,
 				522115D51E0E973F009D9903 /* Music.plist in Resources */,
 				5221159D1E0E8C2B009D9903 /* LaunchScreen.storyboard in Resources */,
 				522115D21E0E9711009D9903 /* yellow.jpg in Resources */,
@@ -339,11 +491,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5221160D1E0EA06B009D9903 /* JSONHTTPClient.m in Sources */,
+				5221160B1E0EA06B009D9903 /* JSONModelError.m in Sources */,
+				522116191E0EA06B009D9903 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				5221160A1E0EA06B009D9903 /* JSONModelClassProperty.m in Sources */,
+				522116171E0EA06B009D9903 /* MASViewConstraint.m in Sources */,
+				5221160C1E0EA06B009D9903 /* JSONAPI.m in Sources */,
+				5221161A1E0EA06B009D9903 /* View+MASAdditions.m in Sources */,
+				522116101E0EA06B009D9903 /* JSONValueTransformer.m in Sources */,
+				522116161E0EA06B009D9903 /* MASViewAttribute.m in Sources */,
+				522116141E0EA06B009D9903 /* MASConstraintMaker.m in Sources */,
 				522115921E0E8C2B009D9903 /* AppDelegate.m in Sources */,
 				522115C61E0E9575009D9903 /* QJBViewController.m in Sources */,
+				5221160F1E0EA06B009D9903 /* JSONKeyMapper.m in Sources */,
+				5221161B1E0EA06B009D9903 /* ViewController+MASAdditions.m in Sources */,
+				5221160E1E0EA06B009D9903 /* JSONModel+networking.m in Sources */,
+				522116181E0EA06B009D9903 /* NSArray+MASAdditions.m in Sources */,
 				5221158F1E0E8C2B009D9903 /* main.m in Sources */,
+				522116151E0EA06B009D9903 /* MASLayoutConstraint.m in Sources */,
+				522116121E0EA06B009D9903 /* MASCompositeConstraint.m in Sources */,
+				522116091E0EA06B009D9903 /* JSONModel.m in Sources */,
 				522115CC1E0E961C009D9903 /* QJBMusicManager.m in Sources */,
 				522115C91E0E95E6009D9903 /* QJBMusic.m in Sources */,
+				522116131E0EA06B009D9903 /* MASConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

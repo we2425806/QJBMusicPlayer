@@ -42,19 +42,28 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cPW-9w-nzz">
-                                        <rect key="frame" x="20" y="53" width="263" height="80"/>
+                                        <rect key="frame" x="20" y="73" width="263" height="80"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNd-m1-kz2">
                                                 <rect key="frame" x="0.0" y="0.0" width="46" height="80"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="behideClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4nY-tB-Ait"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxb-vb-plD">
                                                 <rect key="frame" x="108.5" y="0.0" width="46" height="80"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="playClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MEO-hr-vbw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msO-jX-u5A">
                                                 <rect key="frame" x="217" y="0.0" width="46" height="80"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="nextClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EfA-AF-uhr"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -76,7 +85,7 @@
                                     <constraint firstItem="pJ7-Tg-Lba" firstAttribute="centerY" secondItem="4xa-jm-66l" secondAttribute="centerY" id="mg7-pN-qfN"/>
                                     <constraint firstItem="4xa-jm-66l" firstAttribute="leading" secondItem="K0w-Ow-iiL" secondAttribute="trailing" constant="10" id="o1M-3l-3JG"/>
                                     <constraint firstItem="K0w-Ow-iiL" firstAttribute="top" secondItem="W1m-rT-w4i" secondAttribute="top" constant="8" id="raG-Gd-tXR"/>
-                                    <constraint firstItem="cPW-9w-nzz" firstAttribute="top" secondItem="4xa-jm-66l" secondAttribute="bottom" constant="20" id="uiU-4m-63y"/>
+                                    <constraint firstItem="cPW-9w-nzz" firstAttribute="top" secondItem="4xa-jm-66l" secondAttribute="bottom" constant="40" id="uiU-4m-63y"/>
                                     <constraint firstItem="cPW-9w-nzz" firstAttribute="leading" secondItem="W1m-rT-w4i" secondAttribute="leading" constant="20" id="wiL-Gh-ZJi"/>
                                 </constraints>
                             </view>
